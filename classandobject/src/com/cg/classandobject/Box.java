@@ -31,8 +31,8 @@ public class Box {
 		return dblWidth;
 	}
 	
-	public void setDlbWidth(double dblWidth() {
-		this.dblWidth = =dblWidth;
+	public void setDblWidth(double dblWidth) {
+		this.dblWidth = dblWidth;
 		
 	}
 	
