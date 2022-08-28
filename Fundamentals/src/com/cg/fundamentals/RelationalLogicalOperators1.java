@@ -1,7 +1,6 @@
 package com.cg.fundamentals;
 
-
-
+import java.util.Random;
 
 public class RelationalLogicalOperators1 {
 
@@ -18,10 +17,14 @@ public class RelationalLogicalOperators1 {
 		System.out.println("i == j is " +(i==j));
 		System.out.println("i != j is " +(i!=j));
 		
-		System.out.println("(i < 10) && (j < 10) is" +(i < 10) && (j < 10)));
-		System.out.println("(i < 10) || (j < 10) is" +(i < 10) && (j < 10)));
+		System.out.println("(i < 10) && (j < 10) is" + ((i < 10) && (j < 10)));
+		System.out.println("(i < 10) || (j < 10) is" + ((i < 10) || (j < 10)));
+
+				}
+
+				
 		
 
 	}
 
-}
+

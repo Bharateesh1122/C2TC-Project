@@ -5,17 +5,17 @@ public class BoxDemo {
 	public static void main(String[] args) {
 		Box box1;
 		box1 = new Box();
-		System.out.println(box1.calcVolume());
+		System.out.println(box1.clacVolume());
 		
 		Box box2 = new Box(10,20,30);
-		System.out.println(box2.calcVolume());
+		System.out.println(box2.clacVolume());
 		
 		
 		Box box3 = new Box();
 		box3.setDblDepth(1);
 		box3.setDblHeight(2);
 		box3.setDblWidth(3);
-		System.out.println(box3.calcVolume());
+		System.out.println(box3.clacVolume());
 
 	}
 

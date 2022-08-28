@@ -15,11 +15,11 @@ public class RelationalLogicalOperators {
 		System.out.println("i == j is " +(i != j));
 		
 		
-		int i = 50;
-		int j = 4;
+		int i1 = 50;
+		int j1 = 4;
 		
-		System.out.println((i<10)&&(j<10));
-		System.out.println((i<10)||(j<10));
+		System.out.println((i1<10)&&(j<10));
+		System.out.println((i1<10)||(j<10));
 		
 		
 
